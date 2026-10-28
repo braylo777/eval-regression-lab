@@ -1,0 +1,11 @@
+import { readFileSync, writeFileSync } from "node:fs";
+const html = readFileSync("dist/index.html", "utf8");
+const report = readFileSync("reports/baseline.json", "utf8");
+const dataset = readFileSync("data/eval-set.json", "utf8");
+writeFileSync("dist/worker.js", `const HTML=${JSON.stringify(html)};const REPORT=${JSON.stringify(report)};const DATA=${JSON.stringify(dataset)};
+export default{async fetch(req){const p=new URL(req.url).pathname;
+if(p==="/")return new Response(HTML,{headers:{"content-type":"text/html; charset=utf-8","x-content-type-options":"nosniff"}});
+if(p==="/report.json")return new Response(REPORT,{headers:{"content-type":"application/json"}});
+if(p==="/eval-set.json")return new Response(DATA,{headers:{"content-type":"application/json"}});
+return new Response("not found",{status:404})}};`);
+console.log("built dist/worker.js");

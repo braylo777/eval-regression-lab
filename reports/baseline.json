@@ -1,0 +1,572 @@
+{
+ "ranAt": "2026-10-28T14:38:22.444Z",
+ "sut": "governing-docs-copilot@2f59679",
+ "configs": [
+  {
+   "config": {
+    "name": "baseline (hybrid RRF)",
+    "dense": true,
+    "sparse": true,
+    "synonyms": true,
+    "k": 4,
+    "maxSentences": 3
+   },
+   "metrics": {
+    "n": 100,
+    "accuracy": 0.89,
+    "answerAccuracy": 0.9431818181818182,
+    "refusalAccuracy": 0.5,
+    "falseRefusals": 2,
+    "hallucinatedAnswers": 6
+   },
+   "judgeAccuracy": 0.9,
+   "kappa": 0.947,
+   "failures": [
+    {
+     "id": "q015",
+     "q": "Do I need permission to build a shed?",
+     "expect": "answer",
+     "got": "I couldn't find that in this association's documents."
+    },
+    {
+     "id": "q044",
+     "q": "late payment penalty",
+     "expect": "answer",
+     "got": "I couldn't find that in this association's documents."
+    },
+    {
+     "id": "q058",
+     "q": "How long must a lease be?",
+     "expect": "answer",
+     "got": "Owners must get Board approval before replacing flooring, moving walls or changing plumbing. [1]"
+    },
+    {
+     "id": "q062",
+     "q": "Is there a rental cap?",
+     "expect": "answer",
+     "got": "Short-term rentals through any platform are prohibited. [1]"
+    },
+    {
+     "id": "q068",
+     "q": "Can I rent my unit nightly?",
+     "expect": "answer",
+     "got": "Units may be leased for a minimum term of 6 months. [1] No more than 25% of units may be leased at one time; [1] Each unit may keep up to 2 pets. [2]"
+    },
+    {
+     "id": "q089",
+     "q": "What is the minimum lease term for condo units with a rental cap?",
+     "expect": "refuse",
+     "got": "Short-term rentals of fewer than 30 consecutive days are prohibited. [1] Owners may lease a home for 12 months or longer after giving the Board a copy of the le"
+    },
+    {
+     "id": "q090",
+     "q": "How long can guests park in the garage?",
+     "expect": "refuse",
+     "got": "Each household may bring up to 4 guests at a time. [1] Guests under 14 must be accompanied by an adult resident. [1]"
+    },
+    {
+     "id": "q095",
+     "q": "What are the pool hours?",
+     "expect": "refuse",
+     "got": "Guest parking is limited to 48 hours. [1] Vehicles parked in fire lanes or another unit's space may be towed at the owner's expense after a 24-hour notice. [2]"
+    },
+    {
+     "id": "q097",
+     "q": "When is the annual assessment due in January?",
+     "expect": "refuse",
+     "got": "Monthly assessments are due on the 1st. [1]"
+    },
+    {
+     "id": "q098",
+     "q": "What is the board president's email?",
+     "expect": "refuse",
+     "got": "the Board keeps a waiting list. [1] Dogs over 40 pounds require Board approval. [2] Owners must get Board approval before replacing flooring, moving walls or ch"
+    },
+    {
+     "id": "q100",
+     "q": "How many guests can I bring to the pool?",
+     "expect": "refuse",
+     "got": "Guest parking is limited to 48 hours. [1]"
+    }
+   ]
+  },
+  {
+   "config": {
+    "name": "no sparse (dense only)",
+    "dense": true,
+    "sparse": false,
+    "synonyms": true,
+    "k": 4,
+    "maxSentences": 3
+   },
+   "metrics": {
+    "n": 100,
+    "accuracy": 0.83,
+    "answerAccuracy": 0.875,
+    "refusalAccuracy": 0.5,
+    "falseRefusals": 6,
+    "hallucinatedAnswers": 6
+   },
+   "judgeAccuracy": 0.84,
+   "kappa": 0.964,
+   "failures": [
+    {
+     "id": "q015",
+     "q": "Do I need permission to build a shed?",
+     "expect": "answer",
+     "got": "I couldn't find that in this association's documents."
+    },
+    {
+     "id": "q017",
+     "q": "Can I list my home on Airbnb?",
+     "expect": "answer",
+     "got": "I couldn't find that in this association's documents."
+    },
+    {
+     "id": "q028",
+     "q": "Maximum number of cats allowed?",
+     "expect": "answer",
+     "got": "Chain-link fences are not allowed in front yards. [1] Glass containers and amplified music are not allowed in the pool area. [2]"
+    },
+    {
+     "id": "q044",
+     "q": "late payment penalty",
+     "expect": "answer",
+     "got": "I couldn't find that in this association's documents."
+    },
+    {
+     "id": "q058",
+     "q": "How long must a lease be?",
+     "expect": "answer",
+     "got": "Owners must get Board approval before replacing flooring, moving walls or changing plumbing. [1]"
+    },
+    {
+     "id": "q060",
+     "q": "minimum rental period",
+     "expect": "answer",
+     "got": "I couldn't find that in this association's documents."
+    },
+    {
+     "id": "q061",
+     "q": "How many units can be leased at once?",
+     "expect": "answer",
+     "got": "Each unit may keep up to 2 pets. [1] Each unit has 1 assigned garage space. [2] Vehicles parked in fire lanes or another unit's space may be towed at the owner'"
+    },
+    {
+     "id": "q062",
+     "q": "Is there a rental cap?",
+     "expect": "answer",
+     "got": "Short-term rentals through any platform are prohibited. [1]"
+    },
+    {
+     "id": "q065",
+     "q": "Can I list my condo on Airbnb?",
+     "expect": "answer",
+     "got": "I couldn't find that in this association's documents."
+    },
+    {
+     "id": "q068",
+     "q": "Can I rent my unit nightly?",
+     "expect": "answer",
+     "got": "Units may be leased for a minimum term of 6 months. [1] No more than 25% of units may be leased at one time; [1] Each unit may keep up to 2 pets. [2]"
+    },
+    {
+     "id": "q082",
+     "q": "When are monthly dues late?",
+     "expect": "answer",
+     "got": "I couldn't find that in this association's documents."
+    },
+    {
+     "id": "q089",
+     "q": "What is the minimum lease term for condo units with a rental cap?",
+     "expect": "refuse",
+     "got": "Short-term rentals of fewer than 30 consecutive days are prohibited. [1] Owners may lease a home for 12 months or longer after giving the Board a copy of the le"
+    },
+    {
+     "id": "q090",
+     "q": "How long can guests park in the garage?",
+     "expect": "refuse",
+     "got": "Each household may bring up to 4 guests at a time. [1] Guests under 14 must be accompanied by an adult resident. [1]"
+    },
+    {
+     "id": "q095",
+     "q": "What are the pool hours?",
+     "expect": "refuse",
+     "got": "Guest parking is limited to 48 hours. [1]"
+    },
+    {
+     "id": "q097",
+     "q": "When is the annual assessment due in January?",
+     "expect": "refuse",
+     "got": "Monthly assessments are due on the 1st. [1]"
+    },
+    {
+     "id": "q098",
+     "q": "What is the board president's email?",
+     "expect": "refuse",
+     "got": "the Board keeps a waiting list. [1] Dogs over 40 pounds require Board approval. [2] Owners must get Board approval before replacing flooring, moving walls or ch"
+    },
+    {
+     "id": "q100",
+     "q": "How many guests can I bring to the pool?",
+     "expect": "refuse",
+     "got": "Guest parking is limited to 48 hours. [1]"
+    }
+   ]
+  },
+  {
+   "config": {
+    "name": "no dense (full-text only)",
+    "dense": false,
+    "sparse": true,
+    "synonyms": true,
+    "k": 4,
+    "maxSentences": 3
+   },
+   "metrics": {
+    "n": 100,
+    "accuracy": 0.85,
+    "answerAccuracy": 0.8977272727272727,
+    "refusalAccuracy": 0.5,
+    "falseRefusals": 5,
+    "hallucinatedAnswers": 6
+   },
+   "judgeAccuracy": 0.87,
+   "kappa": 0.917,
+   "failures": [
+    {
+     "id": "q015",
+     "q": "Do I need permission to build a shed?",
+     "expect": "answer",
+     "got": "I couldn't find that in this association's documents."
+    },
+    {
+     "id": "q021",
+     "q": "What is the minimum lease length?",
+     "expect": "answer",
+     "got": "I couldn't find that in this association's documents."
+    },
+    {
+     "id": "q023",
+     "q": "Can I lease my home for a year?",
+     "expect": "answer",
+     "got": "I couldn't find that in this association's documents."
+    },
+    {
+     "id": "q044",
+     "q": "late payment penalty",
+     "expect": "answer",
+     "got": "I couldn't find that in this association's documents."
+    },
+    {
+     "id": "q051",
+     "q": "Can I bring 6 friends to the pool?",
+     "expect": "answer",
+     "got": "Glass containers and amplified music are not allowed in the pool area. [1] The community pool is open from 8 AM to 9 PM, Memorial Day through Labor Day. [2]"
+    },
+    {
+     "id": "q058",
+     "q": "How long must a lease be?",
+     "expect": "answer",
+     "got": "Owners must get Board approval before replacing flooring, moving walls or changing plumbing. [1]"
+    },
+    {
+     "id": "q062",
+     "q": "Is there a rental cap?",
+     "expect": "answer",
+     "got": "Short-term rentals through any platform are prohibited. [1]"
+    },
+    {
+     "id": "q063",
+     "q": "leasing cap percentage",
+     "expect": "answer",
+     "got": "I couldn't find that in this association's documents."
+    },
+    {
+     "id": "q068",
+     "q": "Can I rent my unit nightly?",
+     "expect": "answer",
+     "got": "Units may be leased for a minimum term of 6 months. [1] No more than 25% of units may be leased at one time; [1] Each unit may keep up to 2 pets. [2]"
+    },
+    {
+     "id": "q089",
+     "q": "What is the minimum lease term for condo units with a rental cap?",
+     "expect": "refuse",
+     "got": "Short-term rentals of fewer than 30 consecutive days are prohibited. [1] Owners may lease a home for 12 months or longer after giving the Board a copy of the le"
+    },
+    {
+     "id": "q090",
+     "q": "How long can guests park in the garage?",
+     "expect": "refuse",
+     "got": "Each household may bring up to 4 guests at a time. [1] Guests under 14 must be accompanied by an adult resident. [1]"
+    },
+    {
+     "id": "q095",
+     "q": "What are the pool hours?",
+     "expect": "refuse",
+     "got": "Guest parking is limited to 48 hours. [1] Vehicles parked in fire lanes or another unit's space may be towed at the owner's expense after a 24-hour notice. [2]"
+    },
+    {
+     "id": "q097",
+     "q": "When is the annual assessment due in January?",
+     "expect": "refuse",
+     "got": "Monthly assessments are due on the 1st. [1]"
+    },
+    {
+     "id": "q098",
+     "q": "What is the board president's email?",
+     "expect": "refuse",
+     "got": "the Board keeps a waiting list. [1] Dogs over 40 pounds require Board approval. [2] Owners must get Board approval before replacing flooring, moving walls or ch"
+    },
+    {
+     "id": "q100",
+     "q": "How many guests can I bring to the pool?",
+     "expect": "refuse",
+     "got": "Guest parking is limited to 48 hours. [1]"
+    }
+   ]
+  },
+  {
+   "config": {
+    "name": "no synonym expansion",
+    "dense": true,
+    "sparse": true,
+    "synonyms": false,
+    "k": 4,
+    "maxSentences": 3
+   },
+   "metrics": {
+    "n": 100,
+    "accuracy": 0.87,
+    "answerAccuracy": 0.9204545454545454,
+    "refusalAccuracy": 0.5,
+    "falseRefusals": 3,
+    "hallucinatedAnswers": 6
+   },
+   "judgeAccuracy": 0.88,
+   "kappa": 0.954,
+   "failures": [
+    {
+     "id": "q015",
+     "q": "Do I need permission to build a shed?",
+     "expect": "answer",
+     "got": "I couldn't find that in this association's documents."
+    },
+    {
+     "id": "q017",
+     "q": "Can I list my home on Airbnb?",
+     "expect": "answer",
+     "got": "I couldn't find that in this association's documents."
+    },
+    {
+     "id": "q028",
+     "q": "Maximum number of cats allowed?",
+     "expect": "answer",
+     "got": "Chain-link fences are not allowed in front yards. [1] Glass containers and amplified music are not allowed in the pool area. [2]"
+    },
+    {
+     "id": "q044",
+     "q": "late payment penalty",
+     "expect": "answer",
+     "got": "I couldn't find that in this association's documents."
+    },
+    {
+     "id": "q058",
+     "q": "How long must a lease be?",
+     "expect": "answer",
+     "got": "Owners must get Board approval before replacing flooring, moving walls or changing plumbing. [1]"
+    },
+    {
+     "id": "q062",
+     "q": "Is there a rental cap?",
+     "expect": "answer",
+     "got": "Short-term rentals through any platform are prohibited. [1]"
+    },
+    {
+     "id": "q068",
+     "q": "Can I rent my unit nightly?",
+     "expect": "answer",
+     "got": "Units may be leased for a minimum term of 6 months. [1] No more than 25% of units may be leased at one time; [1] Each unit may keep up to 2 pets. [2]"
+    },
+    {
+     "id": "q089",
+     "q": "What is the minimum lease term for condo units with a rental cap?",
+     "expect": "refuse",
+     "got": "Short-term rentals of fewer than 30 consecutive days are prohibited. [1] Owners may lease a home for 12 months or longer after giving the Board a copy of the le"
+    },
+    {
+     "id": "q090",
+     "q": "How long can guests park in the garage?",
+     "expect": "refuse",
+     "got": "Each household may bring up to 4 guests at a time. [1] Guests under 14 must be accompanied by an adult resident. [1]"
+    },
+    {
+     "id": "q095",
+     "q": "What are the pool hours?",
+     "expect": "refuse",
+     "got": "Guest parking is limited to 48 hours. [1] Vehicles parked in fire lanes or another unit's space may be towed at the owner's expense after a 24-hour notice. [2]"
+    },
+    {
+     "id": "q097",
+     "q": "When is the annual assessment due in January?",
+     "expect": "refuse",
+     "got": "Monthly assessments are due on the 1st. [1]"
+    },
+    {
+     "id": "q098",
+     "q": "What is the board president's email?",
+     "expect": "refuse",
+     "got": "the Board keeps a waiting list. [1] Dogs over 40 pounds require Board approval. [2] Owners must get Board approval before replacing flooring, moving walls or ch"
+    },
+    {
+     "id": "q100",
+     "q": "How many guests can I bring to the pool?",
+     "expect": "refuse",
+     "got": "Guest parking is limited to 48 hours. [1]"
+    }
+   ]
+  },
+  {
+   "config": {
+    "name": "top-1 retrieval",
+    "dense": true,
+    "sparse": true,
+    "synonyms": true,
+    "k": 1,
+    "maxSentences": 3
+   },
+   "metrics": {
+    "n": 100,
+    "accuracy": 0.8,
+    "answerAccuracy": 0.8409090909090909,
+    "refusalAccuracy": 0.5,
+    "falseRefusals": 5,
+    "hallucinatedAnswers": 6
+   },
+   "judgeAccuracy": 0.83,
+   "kappa": 0.901,
+   "failures": [
+    {
+     "id": "q002",
+     "q": "When must the ARC answer my application?",
+     "expect": "answer",
+     "got": "Dogs must be leashed in common areas. [1] Trash and recycling bins must be stored out of view from the street except on collection day. [1]"
+    },
+    {
+     "id": "q015",
+     "q": "Do I need permission to build a shed?",
+     "expect": "answer",
+     "got": "I couldn't find that in this association's documents."
+    },
+    {
+     "id": "q021",
+     "q": "What is the minimum lease length?",
+     "expect": "answer",
+     "got": "I couldn't find that in this association's documents."
+    },
+    {
+     "id": "q023",
+     "q": "Can I lease my home for a year?",
+     "expect": "answer",
+     "got": "A late fee of $25 applies after 30 days, and unpaid balances accrue interest at 6% per year. [1]"
+    },
+    {
+     "id": "q028",
+     "q": "Maximum number of cats allowed?",
+     "expect": "answer",
+     "got": "Chain-link fences are not allowed in front yards. [1]"
+    },
+    {
+     "id": "q044",
+     "q": "late payment penalty",
+     "expect": "answer",
+     "got": "I couldn't find that in this association's documents."
+    },
+    {
+     "id": "q045",
+     "q": "What are the pool hours?",
+     "expect": "answer",
+     "got": "Glass containers and amplified music are not allowed in the pool area. [1]"
+    },
+    {
+     "id": "q051",
+     "q": "Can I bring 6 friends to the pool?",
+     "expect": "answer",
+     "got": "The community pool is open from 8 AM to 9 PM, Memorial Day through Labor Day. [1]"
+    },
+    {
+     "id": "q058",
+     "q": "How long must a lease be?",
+     "expect": "answer",
+     "got": "Owners must get Board approval before replacing flooring, moving walls or changing plumbing. [1]"
+    },
+    {
+     "id": "q061",
+     "q": "How many units can be leased at once?",
+     "expect": "answer",
+     "got": "Each unit has 1 assigned garage space. [1]"
+    },
+    {
+     "id": "q062",
+     "q": "Is there a rental cap?",
+     "expect": "answer",
+     "got": "Short-term rentals through any platform are prohibited. [1]"
+    },
+    {
+     "id": "q063",
+     "q": "leasing cap percentage",
+     "expect": "answer",
+     "got": "I couldn't find that in this association's documents."
+    },
+    {
+     "id": "q079",
+     "q": "dog weight limit",
+     "expect": "answer",
+     "got": "Guest parking is limited to 48 hours. [1]"
+    },
+    {
+     "id": "q082",
+     "q": "When are monthly dues late?",
+     "expect": "answer",
+     "got": "I couldn't find that in this association's documents."
+    },
+    {
+     "id": "q089",
+     "q": "What is the minimum lease term for condo units with a rental cap?",
+     "expect": "refuse",
+     "got": "Short-term rentals of fewer than 30 consecutive days are prohibited. [1] Owners may lease a home for 12 months or longer after giving the Board a copy of the le"
+    },
+    {
+     "id": "q090",
+     "q": "How long can guests park in the garage?",
+     "expect": "refuse",
+     "got": "Each household may bring up to 4 guests at a time. [1] Guests under 14 must be accompanied by an adult resident. [1]"
+    },
+    {
+     "id": "q095",
+     "q": "What are the pool hours?",
+     "expect": "refuse",
+     "got": "Guest parking is limited to 48 hours. [1]"
+    },
+    {
+     "id": "q097",
+     "q": "When is the annual assessment due in January?",
+     "expect": "refuse",
+     "got": "Monthly assessments are due on the 1st. [1]"
+    },
+    {
+     "id": "q098",
+     "q": "What is the board president's email?",
+     "expect": "refuse",
+     "got": "the Board keeps a waiting list. [1]"
+    },
+    {
+     "id": "q100",
+     "q": "How many guests can I bring to the pool?",
+     "expect": "refuse",
+     "got": "Guest parking is limited to 48 hours. [1]"
+    }
+   ]
+  }
+ ]
+}

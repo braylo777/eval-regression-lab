@@ -1,0 +1,778 @@
+[
+ {
+  "id": "q001",
+  "tenant": "oak-hollow",
+  "question": "How long does the architectural committee have to respond?",
+  "expect": "answer",
+  "fact": "30 days",
+  "section": "Article 4"
+ },
+ {
+  "id": "q002",
+  "tenant": "oak-hollow",
+  "question": "When must the ARC answer my application?",
+  "expect": "answer",
+  "fact": "30 days",
+  "section": "Article 4"
+ },
+ {
+  "id": "q003",
+  "tenant": "oak-hollow",
+  "question": "What happens if the review committee doesn't reply within 30 days?",
+  "expect": "answer",
+  "fact": "30 days",
+  "section": "Article 4"
+ },
+ {
+  "id": "q004",
+  "tenant": "oak-hollow",
+  "question": "Response deadline for architectural review",
+  "expect": "answer",
+  "fact": "30 days",
+  "section": "Article 4"
+ },
+ {
+  "id": "q005",
+  "tenant": "oak-hollow",
+  "question": "How tall can my fence be?",
+  "expect": "answer",
+  "fact": "6 feet",
+  "section": "Article 4"
+ },
+ {
+  "id": "q006",
+  "tenant": "oak-hollow",
+  "question": "Maximum fence height?",
+  "expect": "answer",
+  "fact": "6 feet",
+  "section": "Article 4"
+ },
+ {
+  "id": "q007",
+  "tenant": "oak-hollow",
+  "question": "Can I build an 8 foot fence?",
+  "expect": "answer",
+  "fact": "6 feet",
+  "section": "Article 4"
+ },
+ {
+  "id": "q008",
+  "tenant": "oak-hollow",
+  "question": "fence height limit",
+  "expect": "answer",
+  "fact": "6 feet",
+  "section": "Article 4"
+ },
+ {
+  "id": "q009",
+  "tenant": "oak-hollow",
+  "question": "Are chain-link fences allowed in the front yard?",
+  "expect": "answer",
+  "fact": "chain-link",
+  "section": "Article 4"
+ },
+ {
+  "id": "q010",
+  "tenant": "oak-hollow",
+  "question": "Can I put a chain link fence out front?",
+  "expect": "answer",
+  "fact": "chain-link",
+  "section": "Article 4"
+ },
+ {
+  "id": "q011",
+  "tenant": "oak-hollow",
+  "question": "front yard chain-link fence rules",
+  "expect": "answer",
+  "fact": "chain-link",
+  "section": "Article 4"
+ },
+ {
+  "id": "q012",
+  "tenant": "oak-hollow",
+  "question": "Is chain-link fencing permitted?",
+  "expect": "answer",
+  "fact": "chain-link",
+  "section": "Article 4"
+ },
+ {
+  "id": "q013",
+  "tenant": "oak-hollow",
+  "question": "Do I need approval to install solar panels?",
+  "expect": "answer",
+  "fact": "written approval",
+  "section": "Article 4"
+ },
+ {
+  "id": "q014",
+  "tenant": "oak-hollow",
+  "question": "Can I paint my house a new color without asking?",
+  "expect": "answer",
+  "fact": "written approval",
+  "section": "Article 4"
+ },
+ {
+  "id": "q015",
+  "tenant": "oak-hollow",
+  "question": "Do I need permission to build a shed?",
+  "expect": "answer",
+  "fact": "written approval",
+  "section": "Article 4"
+ },
+ {
+  "id": "q016",
+  "tenant": "oak-hollow",
+  "question": "approval for exterior changes",
+  "expect": "answer",
+  "fact": "written approval",
+  "section": "Article 4"
+ },
+ {
+  "id": "q017",
+  "tenant": "oak-hollow",
+  "question": "Can I list my home on Airbnb?",
+  "expect": "answer",
+  "fact": "30 consecutive days|Short-term",
+  "section": "Article 6"
+ },
+ {
+  "id": "q018",
+  "tenant": "oak-hollow",
+  "question": "Are short-term rentals allowed?",
+  "expect": "answer",
+  "fact": "30 consecutive days|Short-term",
+  "section": "Article 6"
+ },
+ {
+  "id": "q019",
+  "tenant": "oak-hollow",
+  "question": "Can I rent my house for a weekend?",
+  "expect": "answer",
+  "fact": "30 consecutive days|Short-term",
+  "section": "Article 6"
+ },
+ {
+  "id": "q020",
+  "tenant": "oak-hollow",
+  "question": "vrbo rules",
+  "expect": "answer",
+  "fact": "30 consecutive days|Short-term",
+  "section": "Article 6"
+ },
+ {
+  "id": "q021",
+  "tenant": "oak-hollow",
+  "question": "What is the minimum lease length?",
+  "expect": "answer",
+  "fact": "12 months",
+  "section": "Article 6"
+ },
+ {
+  "id": "q022",
+  "tenant": "oak-hollow",
+  "question": "How long must a lease be?",
+  "expect": "answer",
+  "fact": "12 months",
+  "section": "Article 6"
+ },
+ {
+  "id": "q023",
+  "tenant": "oak-hollow",
+  "question": "Can I lease my home for a year?",
+  "expect": "answer",
+  "fact": "12 months",
+  "section": "Article 6"
+ },
+ {
+  "id": "q024",
+  "tenant": "oak-hollow",
+  "question": "lease term minimum",
+  "expect": "answer",
+  "fact": "12 months",
+  "section": "Article 6"
+ },
+ {
+  "id": "q025",
+  "tenant": "oak-hollow",
+  "question": "How many pets can I have?",
+  "expect": "answer",
+  "fact": "3 household pets",
+  "section": "Article 6"
+ },
+ {
+  "id": "q026",
+  "tenant": "oak-hollow",
+  "question": "Can I keep four dogs?",
+  "expect": "answer",
+  "fact": "3 household pets",
+  "section": "Article 6"
+ },
+ {
+  "id": "q027",
+  "tenant": "oak-hollow",
+  "question": "pet limit per home",
+  "expect": "answer",
+  "fact": "3 household pets",
+  "section": "Article 6"
+ },
+ {
+  "id": "q028",
+  "tenant": "oak-hollow",
+  "question": "Maximum number of cats allowed?",
+  "expect": "answer",
+  "fact": "3 household pets",
+  "section": "Article 6"
+ },
+ {
+  "id": "q029",
+  "tenant": "oak-hollow",
+  "question": "Do dogs need a leash in common areas?",
+  "expect": "answer",
+  "fact": "leashed",
+  "section": "Article 6"
+ },
+ {
+  "id": "q030",
+  "tenant": "oak-hollow",
+  "question": "Can my dog run off leash in the common area?",
+  "expect": "answer",
+  "fact": "leashed",
+  "section": "Article 6"
+ },
+ {
+  "id": "q031",
+  "tenant": "oak-hollow",
+  "question": "leash rule",
+  "expect": "answer",
+  "fact": "leashed",
+  "section": "Article 6"
+ },
+ {
+  "id": "q032",
+  "tenant": "oak-hollow",
+  "question": "Are leashes required for dogs?",
+  "expect": "answer",
+  "fact": "leashed",
+  "section": "Article 6"
+ },
+ {
+  "id": "q033",
+  "tenant": "oak-hollow",
+  "question": "Where do I keep my trash bins?",
+  "expect": "answer",
+  "fact": "out of view|collection day",
+  "section": "Article 6"
+ },
+ {
+  "id": "q034",
+  "tenant": "oak-hollow",
+  "question": "Can I leave recycling bins by the street?",
+  "expect": "answer",
+  "fact": "out of view|collection day",
+  "section": "Article 6"
+ },
+ {
+  "id": "q035",
+  "tenant": "oak-hollow",
+  "question": "trash can storage rules",
+  "expect": "answer",
+  "fact": "out of view|collection day",
+  "section": "Article 6"
+ },
+ {
+  "id": "q036",
+  "tenant": "oak-hollow",
+  "question": "When can bins be visible from the street?",
+  "expect": "answer",
+  "fact": "out of view|collection day",
+  "section": "Article 6"
+ },
+ {
+  "id": "q037",
+  "tenant": "oak-hollow",
+  "question": "When is the annual assessment due?",
+  "expect": "answer",
+  "fact": "January 31",
+  "section": "Article 8"
+ },
+ {
+  "id": "q038",
+  "tenant": "oak-hollow",
+  "question": "When are HOA dues due?",
+  "expect": "answer",
+  "fact": "January 31",
+  "section": "Article 8"
+ },
+ {
+  "id": "q039",
+  "tenant": "oak-hollow",
+  "question": "annual dues deadline",
+  "expect": "answer",
+  "fact": "January 31",
+  "section": "Article 8"
+ },
+ {
+  "id": "q040",
+  "tenant": "oak-hollow",
+  "question": "What date are assessments payable?",
+  "expect": "answer",
+  "fact": "January 31",
+  "section": "Article 8"
+ },
+ {
+  "id": "q041",
+  "tenant": "oak-hollow",
+  "question": "What is the late fee for dues?",
+  "expect": "answer",
+  "fact": "\\$25|6%",
+  "section": "Article 8"
+ },
+ {
+  "id": "q042",
+  "tenant": "oak-hollow",
+  "question": "What happens if I pay my assessment late?",
+  "expect": "answer",
+  "fact": "\\$25|6%",
+  "section": "Article 8"
+ },
+ {
+  "id": "q043",
+  "tenant": "oak-hollow",
+  "question": "interest on unpaid balance",
+  "expect": "answer",
+  "fact": "\\$25|6%",
+  "section": "Article 8"
+ },
+ {
+  "id": "q044",
+  "tenant": "oak-hollow",
+  "question": "late payment penalty",
+  "expect": "answer",
+  "fact": "\\$25|6%",
+  "section": "Article 8"
+ },
+ {
+  "id": "q045",
+  "tenant": "oak-hollow",
+  "question": "What are the pool hours?",
+  "expect": "answer",
+  "fact": "8 AM to 9 PM",
+  "section": "Section 1"
+ },
+ {
+  "id": "q046",
+  "tenant": "oak-hollow",
+  "question": "When does the pool open?",
+  "expect": "answer",
+  "fact": "8 AM to 9 PM",
+  "section": "Section 1"
+ },
+ {
+  "id": "q047",
+  "tenant": "oak-hollow",
+  "question": "What time does the pool close?",
+  "expect": "answer",
+  "fact": "8 AM to 9 PM",
+  "section": "Section 1"
+ },
+ {
+  "id": "q048",
+  "tenant": "oak-hollow",
+  "question": "swim hours",
+  "expect": "answer",
+  "fact": "8 AM to 9 PM",
+  "section": "Section 1"
+ },
+ {
+  "id": "q049",
+  "tenant": "oak-hollow",
+  "question": "How many guests can I bring to the pool?",
+  "expect": "answer",
+  "fact": "4 guests",
+  "section": "Section 2"
+ },
+ {
+  "id": "q050",
+  "tenant": "oak-hollow",
+  "question": "pool guest limit",
+  "expect": "answer",
+  "fact": "4 guests",
+  "section": "Section 2"
+ },
+ {
+  "id": "q051",
+  "tenant": "oak-hollow",
+  "question": "Can I bring 6 friends to the pool?",
+  "expect": "answer",
+  "fact": "4 guests",
+  "section": "Section 2"
+ },
+ {
+  "id": "q052",
+  "tenant": "oak-hollow",
+  "question": "Guest policy for the pool",
+  "expect": "answer",
+  "fact": "4 guests",
+  "section": "Section 2"
+ },
+ {
+  "id": "q053",
+  "tenant": "oak-hollow",
+  "question": "Can I bring glass bottles to the pool?",
+  "expect": "answer",
+  "fact": "Glass",
+  "section": "Section 3"
+ },
+ {
+  "id": "q054",
+  "tenant": "oak-hollow",
+  "question": "Is amplified music allowed at the pool?",
+  "expect": "answer",
+  "fact": "Glass",
+  "section": "Section 3"
+ },
+ {
+  "id": "q055",
+  "tenant": "oak-hollow",
+  "question": "prohibited items at the pool",
+  "expect": "answer",
+  "fact": "Glass",
+  "section": "Section 3"
+ },
+ {
+  "id": "q056",
+  "tenant": "oak-hollow",
+  "question": "Are glass containers allowed poolside?",
+  "expect": "answer",
+  "fact": "Glass",
+  "section": "Section 3"
+ },
+ {
+  "id": "q057",
+  "tenant": "lakeside-commons",
+  "question": "What is the minimum lease term?",
+  "expect": "answer",
+  "fact": "6 months",
+  "section": "Article 3"
+ },
+ {
+  "id": "q058",
+  "tenant": "lakeside-commons",
+  "question": "How long must a lease be?",
+  "expect": "answer",
+  "fact": "6 months",
+  "section": "Article 3"
+ },
+ {
+  "id": "q059",
+  "tenant": "lakeside-commons",
+  "question": "Can I rent my unit for 3 months?",
+  "expect": "answer",
+  "fact": "6 months",
+  "section": "Article 3"
+ },
+ {
+  "id": "q060",
+  "tenant": "lakeside-commons",
+  "question": "minimum rental period",
+  "expect": "answer",
+  "fact": "6 months",
+  "section": "Article 3"
+ },
+ {
+  "id": "q061",
+  "tenant": "lakeside-commons",
+  "question": "How many units can be leased at once?",
+  "expect": "answer",
+  "fact": "25%",
+  "section": "Article 3"
+ },
+ {
+  "id": "q062",
+  "tenant": "lakeside-commons",
+  "question": "Is there a rental cap?",
+  "expect": "answer",
+  "fact": "25%",
+  "section": "Article 3"
+ },
+ {
+  "id": "q063",
+  "tenant": "lakeside-commons",
+  "question": "leasing cap percentage",
+  "expect": "answer",
+  "fact": "25%",
+  "section": "Article 3"
+ },
+ {
+  "id": "q064",
+  "tenant": "lakeside-commons",
+  "question": "What if too many units are rented?",
+  "expect": "answer",
+  "fact": "25%",
+  "section": "Article 3"
+ },
+ {
+  "id": "q065",
+  "tenant": "lakeside-commons",
+  "question": "Can I list my condo on Airbnb?",
+  "expect": "answer",
+  "fact": "Short-term rentals|prohibited",
+  "section": "Article 3"
+ },
+ {
+  "id": "q066",
+  "tenant": "lakeside-commons",
+  "question": "Are short-term rentals allowed?",
+  "expect": "answer",
+  "fact": "Short-term rentals|prohibited",
+  "section": "Article 3"
+ },
+ {
+  "id": "q067",
+  "tenant": "lakeside-commons",
+  "question": "vrbo allowed?",
+  "expect": "answer",
+  "fact": "Short-term rentals|prohibited",
+  "section": "Article 3"
+ },
+ {
+  "id": "q068",
+  "tenant": "lakeside-commons",
+  "question": "Can I rent my unit nightly?",
+  "expect": "answer",
+  "fact": "Short-term rentals|prohibited",
+  "section": "Article 3"
+ },
+ {
+  "id": "q069",
+  "tenant": "lakeside-commons",
+  "question": "Can I install hardwood floors?",
+  "expect": "answer",
+  "fact": "IIC 50",
+  "section": "Article 5"
+ },
+ {
+  "id": "q070",
+  "tenant": "lakeside-commons",
+  "question": "What underlayment is required for hard flooring?",
+  "expect": "answer",
+  "fact": "IIC 50",
+  "section": "Article 5"
+ },
+ {
+  "id": "q071",
+  "tenant": "lakeside-commons",
+  "question": "flooring sound rating",
+  "expect": "answer",
+  "fact": "IIC 50",
+  "section": "Article 5"
+ },
+ {
+  "id": "q072",
+  "tenant": "lakeside-commons",
+  "question": "Do I need sound-dampening under new floors?",
+  "expect": "answer",
+  "fact": "IIC 50",
+  "section": "Article 5"
+ },
+ {
+  "id": "q073",
+  "tenant": "lakeside-commons",
+  "question": "How many pets can I have?",
+  "expect": "answer",
+  "fact": "2 pets",
+  "section": "Article 7"
+ },
+ {
+  "id": "q074",
+  "tenant": "lakeside-commons",
+  "question": "pet limit per unit",
+  "expect": "answer",
+  "fact": "2 pets",
+  "section": "Article 7"
+ },
+ {
+  "id": "q075",
+  "tenant": "lakeside-commons",
+  "question": "Can I keep three cats?",
+  "expect": "answer",
+  "fact": "2 pets",
+  "section": "Article 7"
+ },
+ {
+  "id": "q076",
+  "tenant": "lakeside-commons",
+  "question": "Maximum pets allowed?",
+  "expect": "answer",
+  "fact": "2 pets",
+  "section": "Article 7"
+ },
+ {
+  "id": "q077",
+  "tenant": "lakeside-commons",
+  "question": "Can I have a large dog?",
+  "expect": "answer",
+  "fact": "40 pounds",
+  "section": "Article 7"
+ },
+ {
+  "id": "q078",
+  "tenant": "lakeside-commons",
+  "question": "Do big dogs need approval?",
+  "expect": "answer",
+  "fact": "40 pounds",
+  "section": "Article 7"
+ },
+ {
+  "id": "q079",
+  "tenant": "lakeside-commons",
+  "question": "dog weight limit",
+  "expect": "answer",
+  "fact": "40 pounds",
+  "section": "Article 7"
+ },
+ {
+  "id": "q080",
+  "tenant": "lakeside-commons",
+  "question": "Is there a size restriction on dogs?",
+  "expect": "answer",
+  "fact": "40 pounds",
+  "section": "Article 7"
+ },
+ {
+  "id": "q081",
+  "tenant": "lakeside-commons",
+  "question": "What is the late fee for assessments?",
+  "expect": "answer",
+  "fact": "\\$50|15th",
+  "section": "Article 9"
+ },
+ {
+  "id": "q082",
+  "tenant": "lakeside-commons",
+  "question": "When are monthly dues late?",
+  "expect": "answer",
+  "fact": "\\$50|15th",
+  "section": "Article 9"
+ },
+ {
+  "id": "q083",
+  "tenant": "lakeside-commons",
+  "question": "late payment fee",
+  "expect": "answer",
+  "fact": "\\$50|15th",
+  "section": "Article 9"
+ },
+ {
+  "id": "q084",
+  "tenant": "lakeside-commons",
+  "question": "What if I pay dues after the 15th?",
+  "expect": "answer",
+  "fact": "\\$50|15th",
+  "section": "Article 9"
+ },
+ {
+  "id": "q085",
+  "tenant": "lakeside-commons",
+  "question": "How long can guests park?",
+  "expect": "answer",
+  "fact": "48 hours",
+  "section": "Section 1"
+ },
+ {
+  "id": "q086",
+  "tenant": "lakeside-commons",
+  "question": "guest parking limit",
+  "expect": "answer",
+  "fact": "48 hours",
+  "section": "Section 1"
+ },
+ {
+  "id": "q087",
+  "tenant": "lakeside-commons",
+  "question": "Can my visitor park for a week?",
+  "expect": "answer",
+  "fact": "48 hours",
+  "section": "Section 1"
+ },
+ {
+  "id": "q088",
+  "tenant": "lakeside-commons",
+  "question": "Guest parking rules",
+  "expect": "answer",
+  "fact": "48 hours",
+  "section": "Section 1"
+ },
+ {
+  "id": "q089",
+  "tenant": "oak-hollow",
+  "question": "What is the minimum lease term for condo units with a rental cap?",
+  "expect": "refuse"
+ },
+ {
+  "id": "q090",
+  "tenant": "oak-hollow",
+  "question": "How long can guests park in the garage?",
+  "expect": "refuse"
+ },
+ {
+  "id": "q091",
+  "tenant": "oak-hollow",
+  "question": "What underlayment rating is required for flooring?",
+  "expect": "refuse"
+ },
+ {
+  "id": "q092",
+  "tenant": "oak-hollow",
+  "question": "Who is the property manager's phone number?",
+  "expect": "refuse"
+ },
+ {
+  "id": "q093",
+  "tenant": "oak-hollow",
+  "question": "What is the capital of France?",
+  "expect": "refuse"
+ },
+ {
+  "id": "q094",
+  "tenant": "oak-hollow",
+  "question": "Can I get towed from a fire lane?",
+  "expect": "refuse"
+ },
+ {
+  "id": "q095",
+  "tenant": "lakeside-commons",
+  "question": "What are the pool hours?",
+  "expect": "refuse"
+ },
+ {
+  "id": "q096",
+  "tenant": "lakeside-commons",
+  "question": "How tall can my fence be?",
+  "expect": "refuse"
+ },
+ {
+  "id": "q097",
+  "tenant": "lakeside-commons",
+  "question": "When is the annual assessment due in January?",
+  "expect": "refuse"
+ },
+ {
+  "id": "q098",
+  "tenant": "lakeside-commons",
+  "question": "What is the board president's email?",
+  "expect": "refuse"
+ },
+ {
+  "id": "q099",
+  "tenant": "lakeside-commons",
+  "question": "Explain quantum computing.",
+  "expect": "refuse"
+ },
+ {
+  "id": "q100",
+  "tenant": "lakeside-commons",
+  "question": "How many guests can I bring to the pool?",
+  "expect": "refuse"
+ }
+]
