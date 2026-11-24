@@ -1,5 +1,10 @@
 import { readFileSync, writeFileSync } from "node:fs";
-const html = readFileSync("dist/index.html", "utf8");
+// Braylo SI brand pass: tokens + signature header + built-by footer (snippets in brand/, made by the brand kit).
+const B = (f) => readFileSync(`brand/${f}`, "utf8");
+const html = readFileSync("dist/index.html", "utf8")
+  .replace("</head>", B("bsi-style.html") + "</head>")
+  .replace(/<body[^>]*>/, (m) => m + B("bsi-header.html"))
+  .replace("</body>", B("bsi-footer.html") + "</body>");
 const report = readFileSync("reports/baseline.json", "utf8");
 const dataset = readFileSync("data/eval-set.json", "utf8");
 writeFileSync("dist/worker.js", `const HTML=${JSON.stringify(html)};const REPORT=${JSON.stringify(report)};const DATA=${JSON.stringify(dataset)};
